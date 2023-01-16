@@ -42,24 +42,7 @@ app.post("/bujur_sangkar", (req, res) => {
 
 })
 
-//soal 2 
-//celcius
-// app.post("/:namasuhu/:derajat", (req, res) => {
-//     let namasuhu = req.paramas.namasuhu
-//     let derajat = Number(req.body.derajat)
-//     let reamur = 4/5*derajat
-//     let fahrenhaid = 9/5*derajat+32
-//     let kelvin = +273
-//     let response = {
-//         namasuhu: namasuhu,
-//         derajat: derajat,
-//         reamur: reamur,
-//         fahrenhaid: fahrenhaid,
-//         kelvin: kelvin
-//     }
-//     res.json(response)
 
-// })
 //-------soal no 1
 app.post("/kubus", (req, res) => {
     let sisi = Number(req.body.panjang)
